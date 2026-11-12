@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": "minecraft:stick",
+    "X": "minecraft:diamond_block"
+  },
+  "pattern": [
+    "X",
+    "S",
+    "S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "maces_plus:diamond_mace"
+  }
+}
