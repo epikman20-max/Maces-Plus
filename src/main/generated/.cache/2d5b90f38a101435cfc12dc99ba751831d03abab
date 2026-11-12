@@ -1,9 +1,9 @@
 // 1.21.11	-999999999-01-01T00:00:00	Maces Plus/Maces Plus Recipes
 7c919f3e6aaf7add0c3592f386d370bf4f8bd64d data/maces_plus/advancement/recipes/combat/diamond_mace.json
 aac844a2916e66354708e01f11ba098d7c9b13e1 data/maces_plus/advancement/recipes/combat/golden_mace.json
-2e85af069220407d53cd6bf7fc3e6feb525c0376 data/maces_plus/advancement/recipes/combat/netherite_mace.json
+ff083d5feaf10735aaf2058eeb6d46b3ff08841c data/maces_plus/advancement/recipes/combat/netherite_mace_smithing.json
 af8366932a5bdf440e0c12276ccf957b52c0b5e5 data/maces_plus/advancement/recipes/combat/stone_mace.json
 55ffa9384726f0deb51d332950a668201e4314e6 data/maces_plus/recipe/diamond_mace.json
 f9f59e9521bf896edc922e7fc5987fb1716738ac data/maces_plus/recipe/golden_mace.json
-fc4b94cde49c1dee754e2e5bb7b01d765f701628 data/maces_plus/recipe/netherite_mace.json
+badad408299cd529bfcb7a8aeec3e2514adf4868 data/maces_plus/recipe/netherite_mace_smithing.json
 19d0a2006e9b80d32b80d1dbd9cdc46574ce5b97 data/maces_plus/recipe/stone_mace.json

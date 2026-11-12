@@ -15,8 +15,9 @@ import net.minecraft.registry.RegistryWrapper;
 import org.BobTheWizard.maces_plus.ModItems;
 
 /**
- * Generates the crafting recipes. Every mace is its material's block on top of
- * a two-stick shaft.
+ * Generates the recipes. Stone, golden and diamond maces are their material's
+ * block on top of a two-stick shaft; the netherite mace is a smithing-table
+ * upgrade of the diamond one, the way vanilla handles netherite gear.
  */
 public class ModRecipeProvider extends FabricRecipeProvider {
 
@@ -32,7 +33,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 offerMace(ModItems.STONE_MACE, Items.STONE);
                 offerMace(ModItems.GOLDEN_MACE, Items.GOLD_BLOCK);
                 offerMace(ModItems.DIAMOND_MACE, Items.DIAMOND_BLOCK);
-                offerMace(ModItems.NETHERITE_MACE, Items.NETHERITE_BLOCK);
+
+                // Diamond mace + netherite upgrade template + netherite ingot,
+                // in a smithing table.
+                offerNetheriteUpgradeRecipe(ModItems.DIAMOND_MACE, RecipeCategory.COMBAT, ModItems.NETHERITE_MACE);
             }
 
             /**

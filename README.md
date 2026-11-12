@@ -37,7 +37,7 @@ export JAVA_HOME=/Users/bobthewizard/Library/Java/JavaVirtualMachines/openjdk-27
 ## Layout
 
 ```
-src/main/java/...         # common code: items, creative tab
+src/main/java/...         # common code: items, Combat tab entries
 src/client/java/...       # client-only code and the data generators
 src/main/resources/       # fabric.mod.json, mixin configs, textures, mod icon
 src/main/generated/       # produced by runDatagen - do not hand-edit
@@ -50,7 +50,7 @@ re-run `./gradlew runDatagen` rather than editing the JSON by hand.
 ## Adding another mace
 
 1. Add a field in `ModItems`, reusing the `maceSettings(...)` helper.
-2. Add it to both entry lists in `ModItemGroups`.
+2. Add it to the Combat tab list in `ModItemGroups`.
 3. Register a model in `ModItemModelProvider`, a name in `ModLanguageProvider`,
    a recipe in `ModRecipeProvider` and its enchantment tags in
    `ModItemTagProvider`.

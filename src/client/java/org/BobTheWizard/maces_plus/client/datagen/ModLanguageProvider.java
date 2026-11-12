@@ -6,7 +6,6 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 import net.minecraft.registry.RegistryWrapper;
 
-import org.BobTheWizard.maces_plus.ModItemGroups;
 import org.BobTheWizard.maces_plus.ModItems;
 
 /**
@@ -25,7 +24,5 @@ public class ModLanguageProvider extends FabricLanguageProvider {
         builder.add(ModItems.GOLDEN_MACE, "Golden Mace");
         builder.add(ModItems.DIAMOND_MACE, "Diamond Mace");
         builder.add(ModItems.NETHERITE_MACE, "Netherite Mace");
-
-        builder.add(ModItemGroups.MACES_PLUS_KEY, "Maces Plus");
     }
 }

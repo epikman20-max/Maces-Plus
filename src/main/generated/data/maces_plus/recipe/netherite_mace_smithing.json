@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "#minecraft:netherite_tool_materials",
+  "base": "maces_plus:diamond_mace",
+  "result": {
+    "id": "maces_plus:netherite_mace"
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}
