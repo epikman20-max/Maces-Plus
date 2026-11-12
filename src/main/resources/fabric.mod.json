@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "maces_plus",
+  "version": "${version}",
+  "name": "Maces Plus",
+  "description": "Adds a full tier progression of maces to Minecraft, from stone all the way up to netherite.",
+  "authors": [
+    "BobTheWizard"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/maces_plus/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.BobTheWizard.maces_plus.client.Maces_plusDataGenerator"
+    ],
+    "client": [
+      "org.BobTheWizard.maces_plus.client.Maces_plusClient"
+    ],
+    "main": [
+      "org.BobTheWizard.maces_plus.Maces_plus"
+    ]
+  },
+  "mixins": [
+    "maces_plus.mixins.json",
+    {
+      "config": "maces_plus.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
